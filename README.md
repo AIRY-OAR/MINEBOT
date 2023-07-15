@@ -1,9 +1,19 @@
 # MineBot
-test
 
+```
 .
-├── Prompts
+├── prompts
 │   └── chat.ts
+├── data
+│   ├── groupChatData
+│   │   └── groupChatHistory.txt
+│   └── privateChatData
+├── common
+│   ├── alwaysRun.ts
+│   ├── doTask.ts
+│   ├── getResponseFromGPT.ts
+│   ├── groupMessage.ts
+│   └── privateMessage.ts
 ├── task
 │   ├── attack.ts
 │   ├── checkSaturation.ts
@@ -19,13 +29,9 @@ test
 ├── .eslintrc.js
 ├── .gitignore
 ├── .prettierrc.js
-├── alwaysRun.ts
 ├── bot.ts
-├── doTask.ts
-├── getResponseFromGPT.ts
-├── groupMessage.ts
 ├── package-lock.json
 ├── package.json
-├── privateMessage.ts
 ├── README.md
 └── tsconfig.json
+```
